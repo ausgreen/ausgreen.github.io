@@ -33,12 +33,13 @@ export default function Home() {
         </h2>
         <div className="space-y-4 text-gray-600 leading-relaxed">
           <p>
-            I work at the intersection of data, statistics, and software — turning messy
-            real-world data into decisions and tools that people actually use.
+            I build automated decision systems across the full AI spectrum — from classical
+            machine learning to large language models.
           </p>
           <p>
-            I hold a Master of Science in Analytics from Georgia Tech and spend my time on
-            problems in machine learning, geospatial analysis, and data engineering.
+            My focus is on model governance and measurement: making sure AI systems do what
+            they're supposed to do, at scale, in production. I hold a Master of Science in
+            Analytics from Georgia Tech.
           </p>
         </div>
       </section>
