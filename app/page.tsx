@@ -49,7 +49,24 @@ export default function Home() {
         <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-6">
           Projects
         </h2>
-        <p className="text-gray-400 text-sm">Coming soon.</p>
+        <div>
+          <a href="/snap-simple/privacy" className="group block">
+            <h3 className="font-medium text-gray-900 group-hover:text-gray-500 transition-colors mb-1">
+              Snap Simple
+            </h3>
+          </a>
+          <p className="text-gray-500 text-sm leading-relaxed mb-2">
+            A camera companion app for CampSnap cameras. Transfer and manage photos
+            directly from your camera to your device — no cloud, no accounts.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {["Android"].map((tag) => (
+              <span key={tag} className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
       </section>
     </main>
   );
